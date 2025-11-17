@@ -1,0 +1,18 @@
+div {
+    background: #c77d88;
+}
+
+/*
+    Propriedades inline, ignoram width e height, por isso temos que por block
+*/
+span {
+    background-color: #25b788;
+    display: block;
+}
+
+/*
+    display inline = faz com que o elemento abaixo suba e fique na mesma linha
+    display inline-block = faz com que o elemento abaixo fique em linha, porem em bloco
+    
+
+*/
