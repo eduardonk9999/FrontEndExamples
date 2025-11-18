@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+}
+
+.flex-container {
+    min-height: 500px;
+    border: 5px solid #000;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+@media screen and (max-width: 630px) {
+  .flex-container {
+    /* flex-direction: column; */
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+}
+
+.box {
+    /* flex-shrink: 0; OVERFLOW */
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: skyblue;
+    font-size: 1.5rem;
+}
+
+.LOGO {
+    flex-grow: 3;
+}
