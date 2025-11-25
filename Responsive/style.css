@@ -1,0 +1,33 @@
+/*
+    Max => Sempre vai escolher o maior valor do elemento
+    Min => Sempre vai escolher o menor valor do elemento
+*/
+
+/*
+    No lugar de usar
+    max-width: 90%
+    width: min(90%, 600px)
+
+   A melhor opcao seria: 
+
+*/
+.card {
+    width: min(90%, 600px);
+}
+
+/*
+    Tamanho de font
+    clamp tem tres valores
+    1º Min
+    2º Preferred => Tamanho flexível baseado na largura da tela
+    3º Max
+
+    E o melhor isso já resolve em relas grandes e mobile
+*/
+
+ h2 {
+    font-size: clamp(1.8rem, 4vw, 2rem);
+
+    /* Por fim para resolver o lance de margens tanto desk quanto mobile*/
+    margin-bottom: calc(5vw + 1rem);
+ }
