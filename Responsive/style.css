@@ -31,3 +31,20 @@
     /* Por fim para resolver o lance de margens tanto desk quanto mobile*/
     margin-bottom: calc(5vw + 1rem);
  }
+
+  /*
+    Flex-box
+
+    Grow => Permite que os istens se expandem para preencher o espaço extra.
+    Shrink => Resolve o problema dos itens se encolherem quando o espaço é limitado.
+    Basis => Ele defini a largura mínima
+    Melhor jeito de usar eles para responsivo:
+  */
+  .item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+
+    /*Que é a mesma coisa que*/
+    flex: 1 1 auto;
+  }
