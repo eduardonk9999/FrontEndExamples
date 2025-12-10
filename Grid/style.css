@@ -29,7 +29,7 @@ h1 {
 .grid-container {
     display: grid;
     border: 2px solid #000;
-    /* grid-template-columns: repeat(4, 1fr);   */
+    /* grid-template-columns: repeat(4, 1fr); s2   */
     /* grid-template-columns: repeat(auto-fit, 20rem); */
     /*grid-template-columns: repeat(auto-fit, 1fr); GRID CRIA O MAXIMO DE COLUNA POSSIVELS COM BASE NA TELA */  
     
